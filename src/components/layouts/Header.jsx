@@ -2,19 +2,21 @@ import Link from "next/link";
 
 export default function Header(){
     return (
-        <footer className="mt-3 mb-5">
+        <footer className="pt-3 mb-5">
             <nav className="d-flex mx-5">
                 <div className="flex-fill">
-                    dsadas
+                    <Link href="/">
+                        <a>dsadas</a>
+                    </Link>
                 </div>
                 <div>
-                    <Link href="" >
-                        <a >projetos</a>
+                    <Link href="/projetos" >
+                        <a>projetos</a>
                     </Link>
-                    <Link href="" >
+                    <Link href="/sobre" >
                         <a className="mx-2">sobre</a>
                     </Link>
-                    <Link href="">
+                    <Link href="/contato">
                         <a >contato</a>
                     </Link>
                 </div>
